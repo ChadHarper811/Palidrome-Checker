@@ -1,0 +1,25 @@
+:root {
+    --blue: #092B40;
+    --light_gray: #696969;
+    --gray: #3a3e43;
+    --orange: #c96700;
+    --white: #f0f0f0;
+    --off_white: #d6d6d6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Nova Square', sans-serif;
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+.header {
+    padding: 10px;
+    border: 1px solid black;
+}
