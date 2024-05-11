@@ -23,10 +23,5 @@ const palindromeCheck = str => {
 }
 
 definitionTarget.addEventListener("click", () => {
-    if (definitionDiv.classList.contains("hidden")) {
-        definitionDiv.classList.remove("hidden");
-    } else {
-        definitionDiv.classList.add("hidden");
-    }
-    
+    definitionDiv.classList.contains("hidden") ? definitionDiv.classList.remove("hidden") : definitionDiv.classList.add("hidden");
 })
