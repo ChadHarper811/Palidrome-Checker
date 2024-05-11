@@ -54,7 +54,7 @@ label {
     margin: 10px;
 }
 
-.input {
+.text-input {
     width: 275px;
     height: 25px;
     margin: 10px;
@@ -63,11 +63,18 @@ label {
     font-size: 20px;
 }
 
-.input-btn {
+.check-btn {
     font-size: 15px;
     font-family: 'Nova Square', sans-serif;
     border-radius: 13px;
     padding: 5px;
     color: var(--white);
     background-color: var(--orange);
+    cursor: pointer;
 }
+/* 
+.hidden {
+    display: none;
+} */
+
+
