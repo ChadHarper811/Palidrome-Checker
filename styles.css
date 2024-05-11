@@ -19,6 +19,16 @@ body {
     color: var(--orange);
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
 .header {
     padding: 10px;
     margin: 5px;
