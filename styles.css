@@ -47,5 +47,27 @@ body {
     padding: 15px;
     background-color: var(--gray);
     box-shadow: 5px 5px 3px black;
+    font-size: 20px;
 }
 
+label {
+    margin: 10px;
+}
+
+.input {
+    width: 275px;
+    height: 25px;
+    margin: 10px;
+    color: var(--orange);
+    font-family: 'Nova Square', sans-serif;
+    font-size: 20px;
+}
+
+.input-btn {
+    font-size: 15px;
+    font-family: 'Nova Square', sans-serif;
+    border-radius: 13px;
+    padding: 5px;
+    color: var(--white);
+    background-color: var(--orange);
+}
