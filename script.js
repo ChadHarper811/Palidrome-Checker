@@ -4,6 +4,7 @@ const resultDiv = document.getElementById("result");
 const definitionTarget = document.getElementById("definition-target");
 const definitionDiv = document.getElementById("definition-div");
 const resultText = document.getElementById("result-text");
+const closeBtn = document.getElementById("close-btn");
 
 const palindromeCheck = str => {
     const userInputStr = str;
@@ -29,6 +30,10 @@ const palindromeCheck = str => {
 definitionTarget.addEventListener("click", () => {
     definitionDiv.classList.contains("hidden") ? definitionDiv.classList.remove("hidden") : definitionDiv.classList.add("hidden");
 });
+
+closeBtn.addEventListener("click", () => {
+    definitionDiv.classList.contains("hidden") ? definitionDiv.classList.remove("hidden") : definitionDiv.classList.add("hidden");
+})
 
 checkBtn.addEventListener("click", () => {
     palindromeCheck(userInputText.value);

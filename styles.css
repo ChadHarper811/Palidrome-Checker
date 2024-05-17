@@ -87,6 +87,14 @@ label {
     background-color: var(--light_gray);
     box-shadow: 5px 5px 3px black;
     font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#close-btn {
+    position: relative;
+    margin: -9px;
+    cursor: pointer;
 }
 
 .hidden {
